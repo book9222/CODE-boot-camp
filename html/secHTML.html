@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>WELCOME</h1>
+    <p>I AM HERE</p>
+    <img src="IMG_4275.JPEG" width="200px">
+
+    <h2>Who are YOU ?</h2>
+    <form action="/name">
+        <p>
+            <label for="code">Enter codename:</label>
+            <input id="code" type="text" placeholder="CODENAME" name="code" required>
+        </p>
+        <p>
+            <label for="pass">Enter fireforce ID:</label>
+            <input id="pass" type="password" placeholder="ID" name="pass">
+        </p>
+        <p>
+            <label for="num">Enter company number:</label>
+            <select id="num" name="comNum">
+                <option value="1">Com# 1</option>
+                <option value="2">Com# 2</option>
+                <option value="3">Com# 3</option>
+            </select>
+        </p>
+        <p>
+            Pyrokinetic generation:
+            <label for="g1">Gen 1</label>
+            <input id="g1" type="radio" name="gen" value="1">
+            <label for="g2">Gen 2</label>
+            <input id="g2" type="radio" name="gen" value="2">
+            <label for="g3">Gen 3</label>
+            <input id="g3" type="radio" name="gen" value="3">
+            <label for="g4">Gen 4</label>
+            <input id="g4" type="radio" name="gen" value="4">
+        </p>
+        <p>
+            <input id="term" type="checkbox" name="tos">
+            <label for="term">Term & Service</label>
+        </p>
+        <button>Log In</button>
+    </form>
+
+    <hr>
+
+    <nav>
+        <h3>Search Reddit</h3>
+        <form action="https://www.reddit.com/search">
+            <input type="text" name="q" placeholder="Reddit">
+            <button>search Reddit</button>
+        </form>
+        <h3>Search Youtube</h3>
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query" placeholder="Youtube">
+            <button id="youtube">search YouTube&trade; &#33;&#33;&#33;</button>
+        </form>
+
+
+        <h3><a href="firstHTML.html">go back</a></h3>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+h1{
+    color: rgba(255, 140, 0, 0.781);
+    text-decoration: rgba(255, 140, 0, 0.781) underline overline dashed;
+    letter-spacing: 7px;
+    font-family: Georgia, serif;
+}
+body{
+    background-color: rgb(255, 242, 208);
+}
+
+#intro{
+    background-color: lightgray;
+    padding: 5px;
+    width: 750px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-left-width: 4px;
+    /*box-sizing: border-box;*/
+}
+
+#youtube{
+    background-color: red;
+    font-size: large;
+    padding: 10px 20px;
+    border-color: rgba(0, 0, 0, 0.664);
+    border-width: 4px;
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.877);
+    font-weight: 600;
+}
+nav{
+    margin: 40px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
