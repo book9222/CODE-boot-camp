@@ -1,4 +1,9 @@
-#rgba{
+section{
+    font-family: 'Bungee Outline', cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+rgba{
     width: 50%;
     height: 50%;
     background-color: rgba(255, 0, 0, 0.7);
@@ -8,7 +13,7 @@
     width: 300px;
     height: 300px;
     color: white;
-    background-color: red;
+    /* background-color: red; */
     background-image: url(https://images.unsplash.com/photo-1608086043435-c1cf77369716?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
     opacity: 70%;
     text-align: center;
